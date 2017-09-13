@@ -1,0 +1,325 @@
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16$ ls
+ac732213  ae013715  gm106214  tg639014
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16$ git add ae013715 
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16$ git commit -m "practice commiting"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16$ git push
+Username for 'https://github.com': AlyaElGamal
+Password for 'https://AlyaElGamal@github.com': 
+Everything up-to-date
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16$ cd
+alyaelgamal@alyaelgamal-VirtualBox:~$ ls
+cs3560.f16  Documents  examples.desktop  Music     Public     Videos
+Desktop     Downloads  gitt              Pictures  Templates
+alyaelgamal@alyaelgamal-VirtualBox:~$ cd gitt
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt$ ls
+cs3560.f16
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt$ cd cs3560.f16
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16$ ls
+ac732213  ae013715  gm106214  tg639014
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16$ cd ae013715
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ cd ..
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16$ cd ae013715/
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ git pull
+remote: Counting objects: 130, done.
+remote: Compressing objects: 100% (78/78), done.
+remote: Total 130 (delta 38), reused 109 (delta 17), pack-reused 0
+Receiving objects: 100% (130/130), 645.95 KiB | 1021.00 KiB/s, done.
+Resolving deltas: 100% (38/38), done.
+From http://github.com/itorres2607/cs3560.f16
+   90d9fa7..f7e08e3  master     -> origin/master
+ * [new branch]      assignment3 -> origin/assignment3
+Updating 90d9fa7..f7e08e3
+Fast-forward
+ hf994214/Assignment3.md   |   5 +++++
+ hf994214/Screenshots1.jpg | Bin 0 -> 40081 bytes
+ hf994214/Screenshots2.jpg | Bin 0 -> 36729 bytes
+ jc767615/Assignment3.md   |   4 ++++
+ jc767615/screenshot 1.png | Bin 0 -> 12161 bytes
+ jc767615/screenshot 2.png | Bin 0 -> 16915 bytes
+ jw363912/Assignment3.md   |   4 ++++
+ jw363912/Screenshots1.jpg | Bin 0 -> 86147 bytes
+ jw363912/Screenshots2.jpg | Bin 0 -> 47123 bytes
+ kc855413/Assignment3.md   |   1 +
+ ln006612/Screenshot1.jpeg | Bin 0 -> 83789 bytes
+ ln006612/Screenshot2.jpg  | Bin 0 -> 95954 bytes
+ ln006612/assignment3.md   |   5 +++++
+ pi440113/Assignment3.md   |   5 +++++
+ pi440113/Screenshots1.jpg | Bin 0 -> 59567 bytes
+ pi440113/Screenshots2.jpg | Bin 0 -> 81192 bytes
+ tg639014/assignment3.md   |   5 +++++
+ tg639014/cs3560.f16       |   1 +
+ tg639014/screenshot1.png  | Bin 0 -> 84150 bytes
+ tg639014/screenshot2.png  | Bin 0 -> 87981 bytes
+ 20 files changed, 30 insertions(+)
+ create mode 100644 hf994214/Assignment3.md
+ create mode 100644 hf994214/Screenshots1.jpg
+ create mode 100644 hf994214/Screenshots2.jpg
+ create mode 100644 jc767615/Assignment3.md
+ create mode 100644 jc767615/screenshot 1.png
+ create mode 100644 jc767615/screenshot 2.png
+ create mode 100644 jw363912/Assignment3.md
+ create mode 100644 jw363912/Screenshots1.jpg
+ create mode 100644 jw363912/Screenshots2.jpg
+ create mode 100644 kc855413/Assignment3.md
+ create mode 100644 ln006612/Screenshot1.jpeg
+ create mode 100644 ln006612/Screenshot2.jpg
+ create mode 100644 ln006612/assignment3.md
+ create mode 100644 pi440113/Assignment3.md
+ create mode 100644 pi440113/Screenshots1.jpg
+ create mode 100644 pi440113/Screenshots2.jpg
+ create mode 160000 tg639014/cs3560.f16
+ create mode 100644 tg639014/screenshot1.png
+ create mode 100644 tg639014/screenshot2.png
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ ls
+assignment2.md
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ gedit assignment2.md
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ git add .
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   assignment2.md
+
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ git commit -m "Added first name"
+[master 3d22d63] Added first name
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ git push
+Username for 'https://github.com': AlyaElGamal
+Password for 'https://AlyaElGamal@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/itorres2607/cs3560.f16/'
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ git push
+Username for 'https://github.com': AlyaElGamal
+Password for 'https://AlyaElGamal@github.com': 
+Counting objects: 4, done.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 318 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To http://github.com/itorres2607/cs3560.f16
+   f7e08e3..3d22d63  master -> master
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ ^C
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ 
+
+
+
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ cd
+alyaelgamal@alyaelgamal-VirtualBox:~$ ls
+cs3560.f16  Documents  examples.desktop  Music     Public     Videos
+Desktop     Downloads  gitt              Pictures  Templates
+alyaelgamal@alyaelgamal-VirtualBox:~$ cd cs3560.f16
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16$ ls
+cs3560.f16
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16$ cd cs3560.f16
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16$ ls
+ac732213
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16$ git pull
+remote: Counting objects: 254, done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 254 (delta 9), reused 31 (delta 3), pack-reused 217
+Receiving objects: 100% (254/254), 954.22 KiB | 60.00 KiB/s, done.
+Resolving deltas: 100% (65/65), done.
+From http://github.com/itorres2607/cs3560.f16
+   84ee041..f375573  master     -> origin/master
+ * [new branch]      assignment3 -> origin/assignment3
+Updating 84ee041..f375573
+Fast-forward
+ ae013715/assignment2.md   |   2 ++
+ cg197415/Assignment3.md   |   1 +
+ dj536914/Assignment3.md   |   4 ++++
+ dj536914/Screenshot1.jpg  | Bin 0 -> 96892 bytes
+ dj536914/Screenshot2.jpg  | Bin 0 -> 95764 bytes
+ gm106214/Assignment3.md   |   5 +++++
+ gm106214/Assignment3.md~  |   7 +++++++
+ gm106214/Screenshots1.JPG | Bin 0 -> 83452 bytes
+ gm106214/Screenshots2.JPG | Bin 0 -> 57473 bytes
+ hf994214/Assignment3.md   |   5 +++++
+ hf994214/Screenshots1.jpg | Bin 0 -> 40081 bytes
+ hf994214/Screenshots2.jpg | Bin 0 -> 36729 bytes
+ jc767615/Assignment3.md   |   4 ++++
+ jc767615/screenshot 1.png | Bin 0 -> 12161 bytes
+ jc767615/screenshot 2.png | Bin 0 -> 16915 bytes
+ jh293614/Assignment3.md   |   4 ++++
+ jh293614/screenshot1.jpg  | Bin 0 -> 43389 bytes
+ jh293614/screenshot2.jpg  | Bin 0 -> 16989 bytes
+ jw363912/Assignment3.md   |   4 ++++
+ jw363912/Screenshots1.jpg | Bin 0 -> 86147 bytes
+ jw363912/Screenshots2.jpg | Bin 0 -> 47123 bytes
+ jw473415/Assignment3.md   |   0
+ kc855413/Assignment3.md   |   1 +
+ lb296415/assignment3.md   |   0
+ ln006612/Screenshot1.jpeg | Bin 0 -> 83789 bytes
+ ln006612/Screenshot2.jpg  | Bin 0 -> 95954 bytes
+ ln006612/assignment3.md   |   5 +++++
+ lr259215/Assignment3.md   |   3 +++
+ md956314/Assignment3.md   |   1 +
+ pi440113/Assignment3.md   |   5 +++++
+ pi440113/Screenshots1.jpg | Bin 0 -> 59567 bytes
+ pi440113/Screenshots2.jpg | Bin 0 -> 81192 bytes
+ tg639014/assignment3.md   |   7 +++++++
+ tg639014/cs3560.f16       |   1 +
+ tg639014/screenshot1.png  | Bin 0 -> 84150 bytes
+ tg639014/screenshot2.png  | Bin 0 -> 87981 bytes
+ ts863716/assignment3.md   |   2 ++
+ 37 files changed, 61 insertions(+)
+ create mode 100644 ae013715/assignment2.md
+ create mode 100644 cg197415/Assignment3.md
+ create mode 100644 dj536914/Assignment3.md
+ create mode 100644 dj536914/Screenshot1.jpg
+ create mode 100644 dj536914/Screenshot2.jpg
+ create mode 100644 gm106214/Assignment3.md
+ create mode 100644 gm106214/Assignment3.md~
+ create mode 100755 gm106214/Screenshots1.JPG
+ create mode 100755 gm106214/Screenshots2.JPG
+ create mode 100644 hf994214/Assignment3.md
+ create mode 100644 hf994214/Screenshots1.jpg
+ create mode 100644 hf994214/Screenshots2.jpg
+ create mode 100644 jc767615/Assignment3.md
+ create mode 100644 jc767615/screenshot 1.png
+ create mode 100644 jc767615/screenshot 2.png
+ create mode 100644 jh293614/Assignment3.md
+ create mode 100644 jh293614/screenshot1.jpg
+ create mode 100644 jh293614/screenshot2.jpg
+ create mode 100644 jw363912/Assignment3.md
+ create mode 100644 jw363912/Screenshots1.jpg
+ create mode 100644 jw363912/Screenshots2.jpg
+ create mode 100644 jw473415/Assignment3.md
+ create mode 100644 kc855413/Assignment3.md
+ create mode 100644 lb296415/assignment3.md
+ create mode 100644 ln006612/Screenshot1.jpeg
+ create mode 100644 ln006612/Screenshot2.jpg
+ create mode 100644 ln006612/assignment3.md
+ create mode 100644 lr259215/Assignment3.md
+ create mode 100644 md956314/Assignment3.md
+ create mode 100644 pi440113/Assignment3.md
+ create mode 100644 pi440113/Screenshots1.jpg
+ create mode 100644 pi440113/Screenshots2.jpg
+ create mode 100644 tg639014/assignment3.md
+ create mode 160000 tg639014/cs3560.f16
+ create mode 100644 tg639014/screenshot1.png
+ create mode 100644 tg639014/screenshot2.png
+ create mode 100644 ts863716/assignment3.md
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16$ ls
+ac732213  cg197415  gm106214  jc767615  jw363912  kc855413  ln006612  md956314  tg639014
+ae013715  dj536914  hf994214  jh293614  jw473415  lb296415  lr259215  pi440113  ts863716
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16$ cd ae013715/
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ ls
+assignment2.md
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ gedit assignment2.md
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git commit -m "Added last ininitials from a different tree"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	modified:   assignment2.md
+
+no changes added to commit
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git push
+Username for 'https://github.com': AlyaElGamal
+Password for 'https://AlyaElGamal@github.com': 
+Everything up-to-date
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   assignment2.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git commit -m "Added last ininitials from a different tree"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	modified:   assignment2.md
+
+no changes added to commit
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git pull
+Already up-to-date.
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ cd
+alyaelgamal@alyaelgamal-VirtualBox:~$ 
+alyaelgamal@alyaelgamal-VirtualBox:~$ ls
+cs3560.f16  Documents  examples.desktop  Music     Public     Videos
+Desktop     Downloads  gitt              Pictures  Templates
+alyaelgamal@alyaelgamal-VirtualBox:~$ cd gitt
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt$ ls
+cs3560.f16
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt$ cd cs3560.f16/
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16$ cd ae013715/
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ ls
+assignment2.md  copy
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ gedit copy
+alyaelgamal@alyaelgamal-VirtualBox:~/gitt/cs3560.f16/ae013715$ cd
+alyaelgamal@alyaelgamal-VirtualBox:~$ cd cs3560.f16/cs3560.f16/
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16$ ls
+ac732213  cg197415  gm106214  jc767615  jw363912  kc855413  ln006612  md956314  tg639014
+ae013715  dj536914  hf994214  jh293614  jw473415  lb296415  lr259215  pi440113  ts863716
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16$ cd ae013715/
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ ls
+assignment2.md
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ gedit assignment2.md 
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   assignment2.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git add .
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git commit -m "Added last initials from a different tree"
+[master e28e1ef] Added last initials from a different tree
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git push
+Username for 'https://github.com': AlyaElGamal
+Password for 'https://AlyaElGamal@github.com': 
+To http://github.com/itorres2607/cs3560.f16
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'http://github.com/itorres2607/cs3560.f16'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git pull
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 1), reused 4 (delta 1), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From http://github.com/itorres2607/cs3560.f16
+   f375573..dfef9dd  master     -> origin/master
+Already up-to-date!
+Merge made by the 'recursive' strategy.
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ git push
+Username for 'https://github.com': AlyaELGamal
+Password for 'https://AlyaELGamal@github.com': 
+Counting objects: 5, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 571 bytes | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To http://github.com/itorres2607/cs3560.f16
+   dfef9dd..9e0518c  master -> master
+alyaelgamal@alyaelgamal-VirtualBox:~/cs3560.f16/cs3560.f16/ae013715$ 
+
+
+
